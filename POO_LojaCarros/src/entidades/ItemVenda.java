@@ -28,6 +28,6 @@ public abstract class ItemVenda implements Imprimivel {
     }
 
     // Uso o Método abstrato porque vai obrigar as classes filhas (Produto e Servico) a implementarem
-    // uma lógica de preço, que serão diferentes porque dependerá do tipo (Se é uma Peça ou um Serviço)
+    // uma lógica de preço diferente. O Produto vai ter um acréscimo de 5% e o Serviço vai ser cobrado com base em horas.
     public abstract double calcularPrecoFinal();
 }

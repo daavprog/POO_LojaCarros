@@ -14,10 +14,10 @@ public class Produto extends ItemVenda {
         this.marca = "Generica";
     }
 
-    // Polimorfismo, onde o Produto tem 10% de acréscimo no valor.
+    // Polimorfismo, onde o Produto tem 5% de acréscimo no valor.
     @Override
     public double calcularPrecoFinal() {
-        return getPreco() * 1.10;
+        return getPreco() * 1.05;
     }
 
     @Override
